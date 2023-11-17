@@ -1,0 +1,57 @@
+{
+  "nodes": [
+    {
+      "id": "ryCdq_rVp",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "An SGP30 device.",
+      "id": "ryHtq_SEa",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "@/input-sgp30-device"
+    },
+    {
+      "description": "I²C bus",
+      "id": "S1hYq_rN6",
+      "label": "I2C",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/i2c/input-i2c"
+    },
+    {
+      "description": "Initialize",
+      "id": "HJS35OSEp",
+      "label": "INIT",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Pulse on initialization.",
+      "id": "Sy4-o_SN6",
+      "label": "OK",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    }
+  ]
+}

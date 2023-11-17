@@ -1,0 +1,6 @@
+{
+  "description": "Sensirion SGP30 Indoor Air Quality (IAQ) sensor. Wraps https://github.com/adafruit/Adafruit_SGP30. Datasheet: https://sensirion.com/media/documents/984E0DD5/61644B8B/Sensirion_Gas_Sensors_Datasheet_SGP30.pdf.",
+  "license": "BSD",
+  "name": "sgp30",
+  "version": "0.0.1"
+}
