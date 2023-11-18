@@ -32,6 +32,9 @@
       "type": "xod/i2c/input-i2c"
     },
     {
+      "boundLiterals": {
+        "__out__": "On Boot"
+      },
       "description": "Initialize",
       "id": "HJS35OSEp",
       "label": "INIT",

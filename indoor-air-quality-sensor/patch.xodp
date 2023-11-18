@@ -1,2 +1,389 @@
 {
+  "description": "Combines low level nodes to create a simple to use indoor air quality sensor.",
+  "links": [
+    {
+      "id": "BkTGlKSV6",
+      "input": {
+        "nodeId": "Sk2zgKHVa",
+        "pinKey": "ryHtq_SEa"
+      },
+      "output": {
+        "nodeId": "r1oWlFHNa",
+        "pinKey": "ryDrq_HN6"
+      }
+    },
+    {
+      "id": "SJoRfYHEa",
+      "input": {
+        "nodeId": "BkLCGYr4a",
+        "pinKey": "rybC2WFBVp"
+      },
+      "output": {
+        "nodeId": "H1FQeYBNT",
+        "pinKey": "Sk_vauSVp"
+      }
+    },
+    {
+      "id": "rJf5mYrVa",
+      "input": {
+        "nodeId": "Sk2zgKHVa",
+        "pinKey": "S1hYq_rN6"
+      },
+      "output": {
+        "nodeId": "SyhtQtSE6",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "H1J3XKSNp",
+      "input": {
+        "nodeId": "Sk2zgKHVa",
+        "pinKey": "HJS35OSEp"
+      },
+      "output": {
+        "nodeId": "B18oQKrEa",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "HynamYSVa",
+      "input": {
+        "nodeId": "HJ7pXFSVa",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "r1oWlFHNa",
+        "pinKey": "ryDrq_HN6"
+      }
+    },
+    {
+      "id": "ByIkEYSVp",
+      "input": {
+        "nodeId": "BkLCGYr4a",
+        "pinKey": "HJxChbKrNT"
+      },
+      "output": {
+        "nodeId": "rJbJ4YHET",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "HkOkEKS4p",
+      "input": {
+        "nodeId": "H1FQeYBNT",
+        "pinKey": "BJZQ6OHEa"
+      },
+      "output": {
+        "nodeId": "SkPRQYrN6",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "rJn-VKSNp",
+      "input": {
+        "nodeId": "Sy-XbVtS4p",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "BkLCGYr4a",
+        "pinKey": "By403btrNT"
+      }
+    },
+    {
+      "id": "HyJfEKH4T",
+      "input": {
+        "nodeId": "Bk7-NFHEa",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "H1FQeYBNT",
+        "pinKey": "rJK8TurN6"
+      }
+    },
+    {
+      "id": "BklG4tBNp",
+      "input": {
+        "nodeId": "BkgmbEKHET",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "H1FQeYBNT",
+        "pinKey": "ByaLaOBN6"
+      }
+    },
+    {
+      "id": "HJ7rEFB46",
+      "input": {
+        "nodeId": "H1A4EKHN6",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "BkLCGYr4a",
+        "pinKey": "H1f03-FHV6"
+      }
+    },
+    {
+      "id": "ByESNYHVT",
+      "input": {
+        "nodeId": "BkgAE4tHNT",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "BkLCGYr4a",
+        "pinKey": "BymChZFSEp"
+      }
+    },
+    {
+      "id": "H1VsrFrNT",
+      "input": {
+        "nodeId": "rkloBFrN6",
+        "pinKey": "Bkh8A_Sv1-"
+      },
+      "output": {
+        "nodeId": "Sk2zgKHVa",
+        "pinKey": "Sy4-o_SN6"
+      }
+    },
+    {
+      "id": "By7nrFHEp",
+      "input": {
+        "nodeId": "SkasStBVa",
+        "pinKey": "SJ-1mZPTz"
+      },
+      "output": {
+        "nodeId": "B1zoQFHVa",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "BJShHtrEp",
+      "input": {
+        "nodeId": "H1FQeYBNT",
+        "pinKey": "BJENa_H4a"
+      },
+      "output": {
+        "nodeId": "SkasStBVa",
+        "pinKey": "OkPg7GDaW"
+      }
+    },
+    {
+      "id": "HJy6SKBN6",
+      "input": {
+        "nodeId": "SkihSFSEa",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "rkloBFrN6",
+        "pinKey": "HkyxURuSPyW"
+      }
+    },
+    {
+      "id": "HyoTBKHV6",
+      "input": {
+        "nodeId": "SkasStBVa",
+        "pinKey": "B1P1nFwaM"
+      },
+      "output": {
+        "nodeId": "S1vpBKBVT",
+        "pinKey": "__out__"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "r1oWlFHNa",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "@/sgp30-device"
+    },
+    {
+      "id": "Sk2zgKHVa",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 1
+      },
+      "type": "@/init"
+    },
+    {
+      "id": "H1FQeYBNT",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 1
+      },
+      "type": "@/measure-iaq"
+    },
+    {
+      "id": "BkLCGYr4a",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": 1
+      },
+      "type": "@/measure-raw-iaq"
+    },
+    {
+      "description": "I²C bus",
+      "id": "SyhtQtSE6",
+      "label": "I2C",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": -1
+      },
+      "type": "xod/i2c/input-i2c"
+    },
+    {
+      "description": "Update. Triggers measurement.",
+      "id": "B1zoQFHVa",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": -1
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "On Boot"
+      },
+      "description": "Initialize sensor.",
+      "id": "B18oQKrEa",
+      "label": "INIT",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": -1
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "id": "HJ7pXFSVa",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/to-bus"
+    },
+    {
+      "id": "SkPRQYrN6",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "id": "rJbJ4YHET",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "description": "CO2 (ppm).",
+      "id": "Bk7-NFHEa",
+      "label": "CO2",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "description": "Total volatile organic compounds (ppb).",
+      "id": "BkgmbEKHET",
+      "label": "TVOC",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "description": "Pulse when a measurement has completed successfully.",
+      "id": "Sy-XbVtS4p",
+      "label": "Done",
+      "position": {
+        "units": "slots",
+        "x": 11,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "Raw H2.",
+      "id": "H1A4EKHN6",
+      "label": "H2",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "description": "Raw ethanol.",
+      "id": "BkgAE4tHNT",
+      "label": "EtOH",
+      "position": {
+        "units": "slots",
+        "x": 10,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "id": "rkloBFrN6",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 2
+      },
+      "type": "xod/core/flip-flop"
+    },
+    {
+      "id": "SkasStBVa",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 0
+      },
+      "type": "xod/core/gate"
+    },
+    {
+      "id": "SkihSFSEa",
+      "label": "init",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 3
+      },
+      "type": "xod/patch-nodes/to-bus"
+    },
+    {
+      "id": "S1vpBKBVT",
+      "label": "init",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": -1
+      },
+      "type": "xod/patch-nodes/from-bus"
+    }
+  ]
 }

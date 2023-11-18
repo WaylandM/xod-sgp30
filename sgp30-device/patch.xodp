@@ -1,4 +1,5 @@
 {
+  "description": "Create an SGP30 device.",
   "nodes": [
     {
       "id": "B1_dSdrNT",

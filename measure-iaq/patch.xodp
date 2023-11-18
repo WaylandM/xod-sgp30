@@ -1,2 +1,69 @@
 {
+  "description": "Take a single CO2/TVOC measurement.",
+  "nodes": [
+    {
+      "id": "BJ8z6drEp",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "An SGP30 device.",
+      "id": "BJZQ6OHEa",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "@/input-sgp30-device"
+    },
+    {
+      "description": "Update.",
+      "id": "BJENa_H4a",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "CO2 (ppm).",
+      "id": "rJK8TurN6",
+      "label": "CO2",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "description": "Total volatile organic compounds (ppb).",
+      "id": "ByaLaOBN6",
+      "label": "TVOC",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-number"
+    },
+    {
+      "description": "Pulse when a measurement has completed successfully.",
+      "id": "Sk_vauSVp",
+      "label": "Done",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    }
+  ]
 }

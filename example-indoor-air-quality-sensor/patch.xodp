@@ -1,0 +1,176 @@
+{
+  "description": "Patch to test indoor-air-quality-sensor. Run in debugger.",
+  "links": [
+    {
+      "id": "BJ_tUYSVa",
+      "input": {
+        "nodeId": "HJ1HUYHNT",
+        "pinKey": "B1zoQFHVa"
+      },
+      "output": {
+        "nodeId": "rJrt8FBVp",
+        "pinKey": "HJU8CE2lW"
+      }
+    },
+    {
+      "id": "rJLsLtH4T",
+      "input": {
+        "nodeId": "H1Mi8KB4p",
+        "pinKey": "HJAq-A_8-"
+      },
+      "output": {
+        "nodeId": "HJ1HUYHNT",
+        "pinKey": "Sy-XbVtS4p"
+      }
+    },
+    {
+      "id": "rygnIFBEa",
+      "input": {
+        "nodeId": "rJpoItrNp",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "H1Mi8KB4p",
+        "pinKey": "r1yhZRd8W"
+      }
+    },
+    {
+      "id": "rkGh8FHNT",
+      "input": {
+        "nodeId": "By49IKS4p",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "HJ1HUYHNT",
+        "pinKey": "BkgAE4tHNT"
+      }
+    },
+    {
+      "id": "ByQ3IKHVp",
+      "input": {
+        "nodeId": "B13Qq8KSNa",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "HJ1HUYHNT",
+        "pinKey": "H1A4EKHN6"
+      }
+    },
+    {
+      "id": "SkH28YrNa",
+      "input": {
+        "nodeId": "SyQ58FS46",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "HJ1HUYHNT",
+        "pinKey": "BkgmbEKHET"
+      }
+    },
+    {
+      "id": "SkI3LFrVT",
+      "input": {
+        "nodeId": "ry2YLtBN6",
+        "pinKey": "HkXK-dGob"
+      },
+      "output": {
+        "nodeId": "HJ1HUYHNT",
+        "pinKey": "Bk7-NFHEa"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "HJ1HUYHNT",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 2
+      },
+      "type": "@/indoor-air-quality-sensor"
+    },
+    {
+      "id": "rJrt8FBVp",
+      "position": {
+        "units": "slots",
+        "x": 6,
+        "y": 1
+      },
+      "type": "xod/core/clock"
+    },
+    {
+      "id": "ry2YLtBN6",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 3
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "SyQ58FS46",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 3
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "B13Qq8KSNa",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 3
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "By49IKS4p",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 3
+      },
+      "size": {
+        "height": 1,
+        "units": "slots",
+        "width": 2
+      },
+      "type": "xod/debug/watch"
+    },
+    {
+      "id": "H1Mi8KB4p",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": 3
+      },
+      "type": "xod/core/count"
+    },
+    {
+      "id": "rJpoItrNp",
+      "position": {
+        "units": "slots",
+        "x": 9,
+        "y": 4
+      },
+      "type": "xod/debug/watch"
+    }
+  ]
+}
